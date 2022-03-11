@@ -1,0 +1,18 @@
+@keyframes youTube-logo {
+    0% {border-radius: 100%;}
+    25% {border-radius: 0%;}
+    50% {transform: translateX(100px);}
+    75% {border-radius: 100%;}
+    100% {border-radius: 0%;}
+
+}
+
+.logo:hover {
+    width: 300px;
+    height: 100px;
+    animation-name: youTube-logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: blueviolet;
+}
+
